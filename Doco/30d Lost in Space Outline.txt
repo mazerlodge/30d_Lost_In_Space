@@ -1,0 +1,61 @@
+30d Lost in Space Outline 
+InventrKits Adventure Kit 30d Lost in Space 
+
+Ref: 
+https://inventr.io/sale/
+
+
+Day 1 
+	- Intro to plugging Arduino into computer w/ USB 
+	- Intro to Arduino Studio 
+	- Arduino Blink example code
+	- Code fn()s 
+		-- pinMode(pin, input|output) 
+		-- digitalWrite(pin, low|high) 
+		-- delay(ms) 
+	- Modify Blink to do 150ms delay between 3x blinks, then 1000ms delay before looping
+	
+	ToDo: 
+		-- Do 3x blink example demonstrated
+	
+Day 2 
+	- https://www.youtube.com/watch?v=0IulLD1Q1ZM
+		
+	- Current = Voltage / Resistance 
+	
+	- Resistors tested w/ LEDs, all seem OK 
+		2000 red blk red
+		1000 brn blk red 
+		0470 yel vio bwn
+		0100 bwn blk brn  - seems a little too bright. 
+		
+		Course Instructions used a 220 ohm resistor.
+ 
+ 	- Code written to flash external LED 
+ 		
+			
+Day 3 
+	- Switch inline in circuit 
+		+5v --> switch --> pin2 w/ resist to gnd 
+	
+	- Switch on, blink light 3 times w/ 100ms delay b/n blinks and 1s delay b/n 3 blinks 
+
+	- Elaboration on need for resistor between input voltage and pin sampling 	
+
+
+	
+Day 4 
+	- https://www.youtube.com/watch?v=EpsJpYL1XZA
+	
+	Also ref:
+	https://inventr.io/lesson/day-4-cabin-lighting/
+	
+	Agenda:
+	Initial prog will control 3 lights via 3 switches 	
+
+
+
+- ToDo: 
+	-- Check draw.io for circuit diagram ability (if not what) 
+	-- Inventr.io uses Fritzing for circuit diagrams 
+		
