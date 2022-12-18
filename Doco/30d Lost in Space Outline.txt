@@ -52,7 +52,10 @@ Day 4
 	Agenda:
 	Initial prog will control 3 lights via 3 switches 	
 
-
+	Notes: 
+	Exercise done and customized to blink LEDs in a pattern 
+	Broke one prong on a 3 pos DIP switch, glad I've got more than one. 
+	
 
 - ToDo: 
 	-- Check draw.io for circuit diagram ability (if not what) 
