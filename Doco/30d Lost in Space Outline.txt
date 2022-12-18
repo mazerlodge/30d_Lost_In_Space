@@ -42,7 +42,6 @@ Day 3
 
 	- Elaboration on need for resistor between input voltage and pin sampling 	
 
-
 	
 Day 4 
 	- https://www.youtube.com/watch?v=EpsJpYL1XZA
