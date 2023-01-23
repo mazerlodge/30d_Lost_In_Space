@@ -56,6 +56,50 @@ Day 4
 	Exercise done and customized to blink LEDs in a pattern 
 	Broke one prong on a 3 pos DIP switch, glad I've got more than one. 
 	
+Day 5 
+	Creative day 
+	
+Day 6 
+	- https://inventr.io/lesson/day-6-time-to-fix-the-battery/
+	
+	Agenda: 
+	Serial port output 
+	Analog photo resistor sensor
+		- Blink onboard LED with delay equal to photo resistor value (100ms - 700ms typical)
+	
+YAH
+
+
+Day 7: We still need to keep an eye on this
+Day 8: Adding some color to this dark place
+Day 9: A better way to do things
+Day 10: Creative Day #2
+Quiz
+Day 11: Starting your control panel
+Day 12: Can you hear us?
+12-a Side Quest
+Day 13: HERO Security 101
+Day 14: Advanced security panel
+Day 15: Creative Day #3
+Quiz
+Day 16: A fancy new display
+Day 17: H jyfwapj tlzzhnl
+Day 18: The surface seems so much closer
+Day 19: New Horizons
+Day 20: Creative Day #4
+Quiz
+Day 21: Hello New World
+Day 22: Display Panel Details
+Day 23: Launch System
+Day 24: Back to Orbit
+Day 25: Creative Day #5
+Quiz
+Day 26: HERO_AUTOPILOT.EXE (Fun W/Bitmaps)
+Day 27: HERO_AUTOPILOT.EXE Part 2
+Day 28: Landing Gear
+Day 29: Landing Gear Part 2
+Day 30: Home Sweet Home! (Mission Complete!)	
+
 
 - ToDo: 
 	-- Check draw.io for circuit diagram ability (if not what) 
