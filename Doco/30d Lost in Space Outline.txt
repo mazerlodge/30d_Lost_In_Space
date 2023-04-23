@@ -73,13 +73,23 @@ Day 7: We still need to keep an eye on this
 	Ref:
 	N-- Course link: https://inventr.io/lessons/day-7/
 	
+	Agenda: 
+	Other data types 
+		- int (already used, range about -32k to +32k, aka 2^15 w/ last bit as sign)
+		- unsigned int (positive numbers greater than ~32k, aka 2^16 w/ no sign bit)
+		- float 
+		- double 
+		- code functions 
 	
 	POA:
 	X-- Download Code sample. 
-Y0	.-- Create BOM 
-	.-- Watch video 
-	.-- Implement 
-	
+	C-- Create BOM 
+	X-- Watch video 
+	X-- Implement 
+
+Upcoming: 
+----------	
+
 Day 8: Adding some color to this dark place
 Day 9: A better way to do things
 Day 10: Creative Day #2
