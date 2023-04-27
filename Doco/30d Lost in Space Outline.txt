@@ -87,11 +87,20 @@ Day 7: We still need to keep an eye on this
 	X-- Watch video 
 	X-- Implement 
 
+Day 8: Adding some color to this dark place
+
+	Ref: 
+	N-- Course link: https://inventr.io/lessons/day-8/
+	
+	Agenda 
+	- Wire up an RGB LED (long lead is ground)
+	- Send various color patterns to the LED
+	
+	
 Upcoming: 
 ----------	
 
-Day 8: Adding some color to this dark place
-Day 9: A better way to do things
+Day 9: A better way to do things  (https://inventr.io/lessons/day-9/)
 Day 10: Creative Day #2
 Quiz
 Day 11: Starting your control panel

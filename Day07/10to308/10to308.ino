@@ -4,9 +4,11 @@
 Video said don't try this w/o explanation, so...
 
 Revision History:
-	20230122 - Initial version
+	20230422 - Initial version
+	20230426 - Revised to use POW function to demo max double
 
 */
+#include <math.h>
 
 #define False 0
 #define True  1
@@ -22,16 +24,11 @@ void setup() {
 
 void go() {
 
-	for (int x=0; x<308; x++) {
-	
-		val = 10.0 * val; 
-		
-		if (x < 100) {
-			Serial.print(x); 
-			Serial.print(" -> ");
-			Serial.println(val);
-
-		}
+	for (int x=0; x<38; x++) {	
+		val = pow(2,x); 
+		Serial.print(x); 
+		Serial.print(" -> ");
+		Serial.println(val);
 	
 	}
 	
