@@ -95,12 +95,22 @@ Day 8: Adding some color to this dark place
 	Agenda 
 	- Wire up an RGB LED (long lead is ground)
 	- Send various color patterns to the LED
+
+
+Day 9: Combine Photosensor and RGB LED to sim battery charge w/ LED signaling charge level
+
+	Ref: 
+	N-- Course link: https://inventr.io/lessons/day-9/
+	
+	Agenda 
+	- Wire up an RGB LED (long lead is ground)
+	- Add photo sensor on A0 (analog input) 
+	- Send output to LED changing color as charge increases 
+	- Also send text output to serial monitor 
 	
 	
 Upcoming: 
 ----------	
-
-Day 9: A better way to do things  (https://inventr.io/lessons/day-9/)
 Day 10: Creative Day #2
 Quiz
 Day 11: Starting your control panel
