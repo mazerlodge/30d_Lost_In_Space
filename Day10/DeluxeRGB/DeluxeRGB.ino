@@ -25,6 +25,7 @@ int rVal = 0;
 int gVal = 0;
 int bVal = 0;
 
+bool bIncreasing = True;
 int rgbVals[] = {0, 0, 0};
 int idx=0;
 
@@ -53,46 +54,34 @@ void RGB_color(int red_value, int green_value, int blue_value) {
  
 void loop() {
 
-	for (int r=0; r<255; r+=5) {
-		if (bRIncreasing) 
-			rVal += 5;
+	for (int x=0; x<255; x+=5) {
+
+		if (bIncreasing) 
+			rgbVals[idx] += 5;
 		else 
-			rVal -= 5;
+			rgbVals[idx] -= 5;
 
-		for (int g=0; g<255; g+=5) {
-			if (bGIncreasing) 
-				gVal += 5;
-			else 
-				gVal -= 5;
+		RGB_color(rgbVals[0], rgbVals[1], rgbVals[2]); 
+		delay(COLOR_DELAY);
+		
+		Serial.print(rgbVals[0]);
+		Serial.print(" ");
+		Serial.print(rgbVals[1]);
+		Serial.print(" ");
+		Serial.print(rgbVals[2]);
+		Serial.println(" ");
 
-			for (int b=0; b<255; b+=5) {
+	}
 
-				if (bBIncreasing) 
-					bVal += 5;
-				else 
-					bVal -= 5;
-			
-				RGB_color(rVal, gVal, bVal); 
-				delay(COLOR_DELAY);
-				
-				Serial.print(rVal);
-				Serial.print(" ");
-				Serial.print(gVal);
-				Serial.print(" ");
-				Serial.print(bVal);
-				Serial.println(" ");
-				
-			} // end b
-			
-			bBIncreasing = (bBIncreasing ? False : True); 
-			
-		} // end g
-
-		bGIncreasing = (bGIncreasing ? False : True); 
-
-	} // end r 
-	
-	bRIncreasing = (bRIncreasing ? False : True); 
+	// Update index (indicator of which color is changing)	
+	if (!bIncreasing) {
+		idx++; 
+		if (idx > 2) 
+			idx = 0; 
+	}
+		
+	// If were increasing, switch to decreasing and vice versa.
+	bIncreasing = (bIncreasing ? False : True); 
 
 	
 }
