@@ -108,10 +108,13 @@ Day 9: Combine Photosensor and RGB LED to sim battery charge w/ LED signaling ch
 	- Send output to LED changing color as charge increases 
 	- Also send text output to serial monitor 
 	
+Day 10: Creative Day #2
+
+	Agenda 
+	- Made deluxe color cycling RGB LED 
 	
 Upcoming: 
 ----------	
-Day 10: Creative Day #2
 Quiz
 Day 11: Starting your control panel
 Day 12: Can you hear us?
