@@ -112,11 +112,16 @@ Day 10: Creative Day #2
 
 	Agenda 
 	- Made deluxe color cycling RGB LED 
+
+Day 11: Starting your control panel
+
+	Agenda 
+	- Keypad direct to Arduino ports 2-9
+
 	
 Upcoming: 
 ----------	
 Quiz
-Day 11: Starting your control panel
 Day 12: Can you hear us?
 12-a Side Quest
 Day 13: HERO Security 101
