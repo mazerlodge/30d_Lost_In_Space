@@ -1,3 +1,15 @@
+/*
+30d Lost in Space Day 11
+
+	Read a 4x4 Keypad connected directly to ports 2-9.
+	Output key pressed to the console.
+		
+Revision History:
+	20230524 - Initial version, multiple check-ins.
+
+
+*/
+
 #include <Key.h>
 #include <Keypad.h>
 
