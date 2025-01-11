@@ -1,0 +1,12 @@
+30d Day 11 Keypad Hardware Notes
+
+Connect soft keypad from 37 sensor kit pins:
+	Left to right when viewing front of key pad (8 wires; 4 dark connectors, 4 light)
+	Wire to arduino digital ports 98765432 (left to right) 
+		Code is set to expect: 
+			byte rowPins[MAX_ROWS] = {5, 4, 3, 2};
+			byte colPins[MAX_COLS] = {6, 7, 8, 9};
+
+	Test shows this config reads all numbers, symbols (* and #), and letters A, B, C, D
+
+####	
