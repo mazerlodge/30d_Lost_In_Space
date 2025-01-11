@@ -42,6 +42,7 @@ Keypad pad = Keypad(makeKeymap(keypadButtons), rowPins, colPins, MAX_ROWS, MAX_C
  
 void setup() {
 	Serial.begin(9600); 
+	Serial.println("KeypadSimple Start");
 
 }
  
